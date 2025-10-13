@@ -1,9 +1,11 @@
-from util.game import Game
+from util.Game import Game
+from util.Board import Board
+
 class TicTacToe(Game):
     """Play TicTacToe on an `height` by `width` board, needing `k` in a row to win.
     'X' plays first against 'O'."""
 
-    def __init__(self, height=3, width=3, k=3):
+    def __init__(self, height=5, width=5, k=3):
         self.k = k # k in a row
         self.squares = {(x, y) for x in range(width) for y in range(height)}
         self.initial = Board(height=height, width=width, to_move='X', utility=0)
@@ -35,4 +37,18 @@ def k_in_row(board, player, square, k):
     """True if player has k pieces in a line through square."""
     def in_row(x, y, dx, dy): return 0 if board[x, y] != player else 1 + in_row(x + dx, y + dy, dx, dy)
     return any(in_row(*square, dx, dy) + in_row(*square, -dx, -dy) - 1 >= k
-               for (dx, dy) in ((0, 1), (1, 0), (1, 1), (1, -1)))
+               for (dx, dy) in ((0, 1), (1, 0), (1, 1), (1, -1), (1,2), (2,1), (1,-2), (2,-1), (-1,2), (-2,1), (-1,-2), (-2,-1)))
+
+# def k_in_row(board, player, square, k):
+#     """True if player has k pieces in a line through square."""
+#     def count_in_row(x, y, dx, dy):
+#         count = 0
+#         while (x, y) in board and board[x, y] == player:
+#             count += 1
+#             x, y = x + dx, y + dy
+#         return count
+ 
+#     return any(
+#         count_in_row(*square, dx, dy) + count_in_row(*square, -dx, -dy) - 1 >= k
+#         for (dx, dy) in ((0, 1), (1, 0), (1, 1), (1, -1))
+#     )

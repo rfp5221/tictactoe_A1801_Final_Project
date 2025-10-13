@@ -1,5 +1,4 @@
 from collections import defaultdict
-
 class Board(defaultdict):
     """A board has the player to move, a cached utility value, 
     and a dict of {(x, y): player} entries, where player is 'X' or 'O'."""

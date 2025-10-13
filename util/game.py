@@ -20,11 +20,7 @@ class Game:
     def utility(self, state, player):
         """Return the value of this final state to player."""
         raise NotImplementedError
-
-    def terminal_test(self, state):
-        return self.is_terminal(state)
-    def to_move(self,state):
-        return state.to_move
+        
 
 def play_game(game, strategies: dict, verbose=False):
     """Play a turn-taking game. `strategies` is a {player_name: function} dict,
