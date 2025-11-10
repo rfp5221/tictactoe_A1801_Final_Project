@@ -35,4 +35,8 @@ run_id,model,board_size,runtime_seconds,winner
 4,alphabeta,49,73.353,alphabeta
 3,bayesian,49,0.004,bayesian
 4,bayesian,49,0.004,bayesian
+3,minimax_hash,64,8446.56,minimax
+3,alphabeta,64,665.04,alphabeta
+3,bayesian,64,0.01,bayesian
+
 
