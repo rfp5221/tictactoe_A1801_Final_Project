@@ -60,7 +60,8 @@ run_id,model,board_size,runtime_seconds,winner
 2,alphabeta,64,799.119,alphabeta
 3,alphabeta,64,589.953,alphabeta
 1,bayesian,64,0.01,bayesian
-1,bayesian,64,0.012,bayesian
 2,bayesian,64,0.012,bayesian
+3,bayesian,64,0.012,bayesian
+
 
 
