@@ -59,9 +59,22 @@ run_id,model,board_size,runtime_seconds,winner
 1,alphabeta,64,665.04,alphabeta
 2,alphabeta,64,799.119,alphabeta
 3,alphabeta,64,589.953,alphabeta
+4,alphabeta,64,511.261,alphabeta
+5,alphabeta,64,388.314,alphabeta
 1,bayesian,64,0.01,bayesian
 2,bayesian,64,0.012,bayesian
 3,bayesian,64,0.012,bayesian
+4,bayesian,64,0.009,bayesian
+5,bayesian,64,0.007,bayesian
+1,alphabeta,81,769.781,alphabeta
+2,alphabeta,81,1601.096,alphabeta
+1,bayesian,81,0.008,bayesian
+2,bayesian,81,0.011,bayesian
+1,alphabeta,100,90477.499,alphabeta
+2,alphabeta,100,168941.678,alphabeta
+1,bayesian,100,0.007,bayesian
+2,bayesian,100,0.009,bayesian
+
 
 
 
