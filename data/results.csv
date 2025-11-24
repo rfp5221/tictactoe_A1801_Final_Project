@@ -61,19 +61,31 @@ run_id,model,board_size,runtime_seconds,winner
 3,alphabeta,64,589.953,alphabeta
 4,alphabeta,64,511.261,alphabeta
 5,alphabeta,64,388.314,alphabeta
+6,alphabeta,64,710.621,alphabeta
+7,alphabeta,64,526.671,alphabeta
 1,bayesian,64,0.01,bayesian
 2,bayesian,64,0.012,bayesian
 3,bayesian,64,0.012,bayesian
 4,bayesian,64,0.009,bayesian
 5,bayesian,64,0.007,bayesian
+6,bayesian,64,0.006,bayesian
+7,bayesian,64,0.01,bayesian
 1,alphabeta,81,769.781,alphabeta
 2,alphabeta,81,1601.096,alphabeta
+3,alphabeta,81,1214.443,alphabeta
+4,alphabeta,81,2290.362,alphabeta
 1,bayesian,81,0.008,bayesian
 2,bayesian,81,0.011,bayesian
+3,bayesian,81,0.024,bayesian
+4,bayesian,81,0.024,bayesian
 1,alphabeta,100,90477.499,alphabeta
 2,alphabeta,100,168941.678,alphabeta
+3,alphabeta,100,9864.734,alphabeta
+4,alphabeta,100,13527.697,alphabeta
 1,bayesian,100,0.007,bayesian
 2,bayesian,100,0.009,bayesian
+3,bayesian,100,0.021,bayesian
+4,bayesian,100,0.021,bayesian
 
 
 
